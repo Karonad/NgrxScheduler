@@ -1,0 +1,57 @@
+{
+  "lessons" : [
+    {
+        "id": 1,
+        "year": 2022,
+        "month": 1,
+        "day": 1,
+        "start": "10:00",
+        "end": "11:00",
+        "duration": 60,
+        "title" :"Lesson 1",
+        "teacher": "Teacher 1",
+        "classroom": "Classroom 1",
+        "class": "Class 1"
+      },
+      {
+        "id": 2,
+        "year": 2022,
+        "month": 1,
+        "day": 1,
+        "start": "11:00",
+        "end": "12:00",
+        "duration": 60,
+        "title" :"Lesson 2",
+        "teacher": "Teacher 2",
+        "classroom": "Classroom 2",
+        "class": "Class 2"
+      },
+      {
+        "id": 3,
+        "year": 2022,
+        "month": 1,
+        "day": 1,
+        "start": "12:00",
+        "end": "13:00",
+        "duration": 60,
+        "title" :"Lesson 3",
+        "teacher": "Teacher 3",
+        "classroom": "Classroom 3",
+        "class": "Class 3"
+      },
+      {
+        "id": 4,
+        "year": 2022,
+        "month": 1,
+        "day": 1,
+        "start": "13:00",
+        "end": "14:00",
+        "duration": 60,
+        "title" :"Lesson 4",
+        "teacher": "Teacher 4",
+        "classroom": "Classroom 4",
+        "class": "Class 4"
+      }
+  ]
+
+}
