@@ -5,52 +5,68 @@
         "year": 2022,
         "month": 1,
         "day": 1,
-        "start": "10:00",
-        "end": "11:00",
+        "start": "2022-10-24T10:00:00.000Z",
+        "end": "2022-10-24T11:00:00.000Z",
         "duration": 60,
         "title" :"Lesson 1",
         "teacher": "Teacher 1",
         "classroom": "Classroom 1",
-        "class": "Class 1"
+        "class": "Class 1",
+        "colors": {
+          "primary": "#f0f0f0",
+          "secondary": "#f0f0f1"
+        }
       },
       {
         "id": 2,
         "year": 2022,
         "month": 1,
         "day": 1,
-        "start": "11:00",
-        "end": "12:00",
+        "start": "2022-10-24T12:00:00.000Z",
+        "end": "2022-10-24T13:00:00.000Z",
         "duration": 60,
-        "title" :"Lesson 2",
+        "title" :"Lesson 2 zqeroihgaeroguehroghezroiugheroigheorighoêiaghaoîehg",
         "teacher": "Teacher 2",
         "classroom": "Classroom 2",
-        "class": "Class 2"
+        "class": "Class 2",
+        "colors": {
+          "primary": "#f0f0f0",
+          "secondary": "#f0f0f1"
+        }
       },
       {
         "id": 3,
         "year": 2022,
         "month": 1,
         "day": 1,
-        "start": "12:00",
-        "end": "13:00",
+        "start": "2022-10-24T14:00:00.000Z",
+        "end": "2022-10-24T15:00:00.000Z",
         "duration": 60,
         "title" :"Lesson 3",
         "teacher": "Teacher 3",
         "classroom": "Classroom 3",
-        "class": "Class 3"
+        "class": "Class 3",
+        "colors": {
+          "primary": "#f0f0f0",
+          "secondary": "#f0f0f1"
+        }
       },
       {
         "id": 4,
         "year": 2022,
         "month": 1,
         "day": 1,
-        "start": "13:00",
-        "end": "14:00",
+        "start": "2022-10-24T15:00:00.000Z",
+        "end": "2022-10-24T18:00:00.000Z",
         "duration": 60,
         "title" :"Lesson 4",
         "teacher": "Teacher 4",
         "classroom": "Classroom 4",
-        "class": "Class 4"
+        "class": "Class 4",
+        "colors": {
+          "primary": "#f0f0f0",
+          "secondary": "#f0f0f1"
+        }
       }
   ]
 

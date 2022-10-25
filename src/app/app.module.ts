@@ -1,6 +1,6 @@
 import { SchedulerEffects } from './protected/scheduler/state/scheduler.effects';
 import { HttpClientModule } from '@angular/common/http';
-import { NgModule } from '@angular/core';
+import { LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -10,7 +10,12 @@ import { EffectsModule } from '@ngrx/effects';
 import { metaReducers, rootReducer, ROOT_FEATURE_KEY } from './state/root.reducer';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
-import * as fromScheduler from './protected/scheduler/state/scheduler.reducer';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { registerLocaleData } from '@angular/common';
+import localeFr from '@angular/common/locales/fr';
+
+
+registerLocaleData(localeFr, 'fr');
 
 @NgModule({
   declarations: [
@@ -30,11 +35,11 @@ import * as fromScheduler from './protected/scheduler/state/scheduler.reducer';
         strictStateImmutability: true,
       }
     }),
-    // StoreModule.forFeature(fromScheduler.schedulersFeatureKey, fromScheduler.reducer),
     EffectsModule.forRoot([]),
-    StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: environment.production })
+    StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: environment.production }),
+    BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [{ provide: LOCALE_ID, useValue: 'fr-FR ' }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

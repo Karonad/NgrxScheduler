@@ -1,8 +1,9 @@
 import { ErrorType } from '../models/error.model';
-import { Lesson } from '../models/lesson.model';
 
 import { createReducer, on } from '@ngrx/store';
 import * as SchedulerActions from './scheduler.actions';
+import { Lessons } from '../models/lessons.model';
+import { Lesson } from '../models/lesson.model';
 
 export const schedulersFeatureKey = 'schedulers';
 
@@ -22,7 +23,7 @@ export const initialState: SchedulersState = {
 
 export const reducer = createReducer(
   initialState,
-  on(SchedulerActions.SchedulerActionsGroup.loadLessonsSuccess, (state, { schedulers }) => {            
+  on(SchedulerActions.SchedulerActionsGroup.loadLessonsSuccess, (state, { schedulers }) => {
     return {
       ...state,
       lessons: schedulers.lessons,
